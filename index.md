@@ -10,7 +10,7 @@
 <p>Come back on a later date. Dev may get the motivation to work on the page.</p>
 <p>For the time being, here is a cute youmu gif</p>
 <div class="absolute">
-  <img src="youmu_but_no_fish.gif">
+  <img src="/resources/youmu_but_no_fish.gif">
 </div>
 <div class="repositories">
   <h2>I also host repositories on MEGA and soon on IPFS, maybe</h2>
