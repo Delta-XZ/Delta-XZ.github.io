@@ -1,0 +1,18 @@
+body {
+  background-color: rgba(50,50,50,60);
+}
+div.absolute{
+  position: absolute;
+  width: 600px;
+  height: 338px;
+  left: 0;
+
+
+}
+div.repositories{
+position:absolute;
+top: 500px;
+width:auto;
+
+
+}
