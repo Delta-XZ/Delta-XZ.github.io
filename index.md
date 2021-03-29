@@ -11,12 +11,5 @@
 <p>For the time being, here is a cute youmu gif</p>
 <div class="absolute">
   <img src="/resources/youmu_but_no_fish.gif">
-</div>
-<div class="repositories">
-  <h2>I also host repositories on MEGA and soon on IPFS, maybe</h2>
-
-<a href="">link text</a>
-<! i am a useless comment>
-</div>
 </body>
 </html>
