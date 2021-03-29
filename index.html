@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Decoration is Underway</title>
+<title>Generic Title</title>
 <link rel="stylesheet" href="eyecandy.css">
 </head>
 <body>
