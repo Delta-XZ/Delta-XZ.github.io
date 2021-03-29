@@ -10,6 +10,6 @@
 <p>Come back on a later date. Dev may get the motivation to work on the page.</p>
 <p>For the time being, here is a cute youmu gif</p>
 <div class="absolute">
-  <img src="/resources/youmu_but_no_fish.gif">
+  <img src="./resources/youmu_but_no_fish.gif">
 </body>
 </html>
