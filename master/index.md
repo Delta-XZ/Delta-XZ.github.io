@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Decoration is Underway</title>
+<link rel="stylesheet" href="eyecandy.css">
+</head>
+<body>
+
+<h1>Page is still under work.</h1>
+<p>Come back on a later date. Dev may get the motivation to work on the page.</p>
+<p>For the time being, here is a cute youmu gif</p>
+<div class="absolute">
+  <img src="youmu_but_no_fish.gif">
+</div>
+<div class="repositories">
+  <h2>I also host repositories on MEGA and soon on IPFS, maybe</h2>
+
+<a href="">link text</a>
+<! i am a useless comment>
+</div>
+</body>
+</html>
