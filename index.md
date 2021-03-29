@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>Page is still under work.</h1>
+<h1>Page *is* still under work.</h1>
 <p>Come back on a later date. Dev may get the motivation to work on the page.</p>
 <p>For the time being, here is a cute youmu gif</p>
 <div class="absolute">
