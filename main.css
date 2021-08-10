@@ -31,10 +31,10 @@ body div.generic_footer {
   font-weight: 500;
 }
 body div.generic_footer .github_link #a_for_github_link:link {
-  color: #ffffff;
+  color: white;
 }
 body div.generic_footer .github_link #a_for_github_link:visited {
-  color: #ffffff;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

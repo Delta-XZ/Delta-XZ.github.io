@@ -30,12 +30,16 @@ body{
         bottom: 10%;
         font-weight: 500;
         .github_link{
-            #a_for_github_link:link{
-                color: #ffffff;
+            #a_for_github_link{
+                &:link{
+                    color: white;
+                }
+                &:visited{
+                    color:white;
+                }
+
             }
-            #a_for_github_link:visited{
-                color:#ffffff;
-            }
+            
 
         }
     }
