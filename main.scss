@@ -1,4 +1,4 @@
-$backround: #111;
+$backround: rgb(0, 0, 0);
 $default_site_font: Helvetica;
 *{
     padding: 0;
@@ -33,13 +33,15 @@ html{
             font-family: $default_site_font;
             bottom: 10%;
             font-weight: 500;
-            #github-link{
             #a-for-github_link{
                 text-decoration: none;
                 color: #ffffff;
+                &:visited{
+                    color: #ffffff;
+                    text-decoration:none;
+                }
                 
                 }
             }
         }
     }
-}
