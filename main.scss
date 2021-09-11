@@ -1,47 +1,65 @@
-$backround: #000000;
+$backround: #111;
 $default_site_font: Helvetica;
-html{
-    height: 97%;
-    width: 99%;
+*{
+    padding: 0;
+    margin: 0;
 }
-body{
-    background-color: $backround;
-    width: 100%;
+html{
     height: 100%;
-    #welcome-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #ffffff;
-        font-family: $default_site_font;
-        height: 50%;
-        #main-paragraph{
-            font-weight: 500;
-            text-align: center;
-        }
-    }
-    #generic-footer{
-        color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: $default_site_font;
-        bottom: 10%;
-        font-weight: 500;
-        #github-link{
-            #a-for-github_link{
-                &:link{
-                    color: white;
+    width: 100%;
+    body{
+        background-color: $backround;
+        width: 100%;
+        height: 100%;
+        #navigation-bar{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            height: 7.5%;
+            #a-for-github-link{
+                background-color: #4e4e4e;
+                border: none;
+                padding: 0.9% 1.75%;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                #a-for-github_link{
+                    &:link{
+                        color: white;
+                        text-decoration: none;
+                    }
+                    &:visited{
+                        color: white;
+                        text-decoration: none;
+                    }
                 }
-                &:visited{
-                    color:white;
-                }
-
             }
-            
-
+        }
+        #welcome-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            font-family: $default_site_font;
+            height: 50%;
+            #main-paragraph{
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+        #generic-footer{
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: $default_site_font;
+            bottom: 10%;
+            font-weight: 500;
         }
     }
 }
