@@ -1,7 +1,7 @@
 :root{
-  --background: #000;
+  --background: #191f2a;
   --default-font: Helvetica;
-}
+}  
 * {
   padding: 0;
   margin: 0;
@@ -21,4 +21,18 @@ body{
   margin-left: 15%;
   margin-right: 15%;
 }
-p{margin-top: 0.75%;}
+p{
+  margin-top: 0.75%;
+}
+#top-gradient-thing{
+  height: 0.25rem;
+  animation: infinite;
+  animation-name: gradient-top-thing;
+  animation-duration: 10s;
+  background: linear-gradient(90deg,red,orange,yellow,green,cyan,blue,violet,red);
+}
+/* This idea is stolen from aqua.wtf */
+@keyframes gradient-top-thing {
+  0%{background-position-x:100%;}
+  100%{background-position-x: 100vw;}
+}
