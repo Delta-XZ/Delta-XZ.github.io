@@ -9,27 +9,59 @@
 body{
   background-color: var(--background);
 }
-.main-content{
+p{
+  margin-top: 0.75%;
+  font-family: var(--default-font);
+  color:white;
+}
+#main-container > *{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main-content{
   font-size: 1.25rem;
   position: relative;
   top: 20vh;
-  display: flex;
   text-align: center;
-  flex-direction: column;
   color:#fff;
   font-family: var(--default-font);
   margin-left: 15%;
   margin-right: 15%;
 }
-p{
-  margin-top: 0.75%;
-}
+
 #top-gradient-thing{
   height: 0.25rem;
   animation: infinite;
+  animation-timing-function: linear;
   animation-name: gradient-top-thing;
   animation-duration: 10s;
   background: linear-gradient(90deg,red,orange,yellow,green,cyan,blue,violet,red);
+}
+#CommandLine{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rem;
+}
+#TTY-submit{
+  width:20%;
+  margin-top: 2.5rem;
+}
+#Access{
+  margin-top:1rem;
+}
+#SubmitCommand{
+  width:10rem;
+  margin-top: 0.5rem;
+  align-self: center;
+}
+#p-config-menu{
+  visibility: hidden;
+}
+#GradientSpeed{
+  transform: rotateY(180deg);
 }
 /* This idea is stolen from aqua.wtf */
 @keyframes gradient-top-thing {
