@@ -43,11 +43,11 @@ p{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 15rem;
+  margin-top: 25vh;
 }
 #TTY-submit{
-  width:20%;
-  margin-top: 2.5rem;
+  width:20vw;
+  margin-top: 2.5vw;
 }
 #Access{
   margin-top:1rem;
