@@ -1,6 +1,7 @@
 :root{
   --background: #191f2a;
   --default-font: Helvetica;
+  --global-grad-speed:10s;
 }  
 * {
   padding: 0;
@@ -14,57 +15,59 @@ p{
   font-family: var(--default-font);
   color:white;
 }
-#main-container > *{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#main-content{
-  font-size: 1.25rem;
-  position: relative;
-  top: 20vh;
-  text-align: center;
-  color:#fff;
-  font-family: var(--default-font);
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
 #top-gradient-thing{
   height: 0.25rem;
   animation: infinite;
   animation-timing-function: linear;
   animation-name: gradient-top-thing;
-  animation-duration: 10s;
+  animation-duration: var(--global-grad-speed);
   background: linear-gradient(90deg,red,orange,yellow,green,cyan,blue,violet,red);
 }
-#CommandLine{
+#main-container{
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 25vh;
 }
-#TTY-submit{
-  width:25vw;
-  margin-top: 2.5vw;
+#main-container > * {
+  margin-top: 10vh;
 }
-#Access{
-  margin-top:1rem;
-}
-#SubmitCommand{
-  width:10rem;
-  margin-top: 0.5rem;
-  align-self: center;
-}
-#p-config-menu{
-  visibility: hidden;
+#main-content{
+  font-size: 1.25rem;
+  text-align: center;
+  color:#fff;
+  font-family: var(--default-font);
 }
 #GradientSpeed{
-  transform: rotateY(180deg);
+  appearance: none;
+  direction: rtl;
 }
 /* This idea is stolen from aqua.wtf */
 @keyframes gradient-top-thing {
   0%{background-position-x:100%;}
   100%{background-position-x: 100vw;}
+}
+@keyframes rainbow {
+  0%{background-position-x:100%;}
+  100%{background-position-x:100vw;}
+}
+input[type=range]{
+  background: transparent;
+  height: 200%;
+  width:25vw;
+}
+input[type=range]::-moz-range-thumb {
+  background-color: #fff;
+  border-color: #000;
+  border:1px 1px 1px 1px;
+  height: 80%;
+  width: 5%;
+  border-radius: 25%;
+}
+input[type=range]::-moz-range-progress {
+  background-color: gray; 
+  height: 30%;
+}
+input[type=range]::-moz-range-track {
+  height: 30%;
+  background-color: #111;
 }
