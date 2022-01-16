@@ -21,7 +21,8 @@ footer{
   padding-left: 1%; 
   padding-right: 1%;
 }
-footer > a {
+
+footer > img, a{
   padding-right: 0.5%;
 }
 header{
