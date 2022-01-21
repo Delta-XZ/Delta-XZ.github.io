@@ -18,6 +18,9 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 50%;
   padding-left: 1%; 
   padding-right: 1%;
 }
@@ -33,6 +36,7 @@ header{
 header > a {
   margin: 0 10px 0 10px;
 }
+
 a {
   color:rgb(148, 148, 148);
   text-decoration: none;
