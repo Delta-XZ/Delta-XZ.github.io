@@ -13,6 +13,7 @@ body{
   font-family: var(--default-font);
   color: white;
   font-weight: 600;
+  font-size: 0.8vmax;
 }
 footer{
   display: flex;
