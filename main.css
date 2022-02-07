@@ -26,8 +26,8 @@ footer{
   padding-right: 1%;
 }
 
-footer > img, a{
-  padding-right: 0.5%;
+footer > img, footer > a{
+  padding: 0 0.25% 0 0.25%;
 }
 header{
   background-color: #111;
@@ -39,8 +39,8 @@ header > a {
 }
 
 a {
-  color:rgb(148, 148, 148);
-  text-decoration: none;
+  color:#00a2ff;
+  text-decoration: underline;
 }
 
 code{
