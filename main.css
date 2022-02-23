@@ -1,12 +1,13 @@
-/* Global stuff(?) */
 :root{
-  /*--background: #191f2a;*/
   --background: #000000;
   --default-font: Helvetica;
 }  
 * {
   padding: 0;
   margin: 0;
+}
+html{
+  scroll-behavior: smooth;
 }
 body{
   background-color: var(--background);
@@ -30,7 +31,7 @@ footer > img, footer > a{
 }
 header{
   display: flex;
-  background-color: #111;
+  background-color: #222;
   height: fit-content;
   width:auto;
   justify-content: space-evenly;
@@ -42,6 +43,7 @@ a {
 }
 
 code{
+  font-family: monospace;
   background-color: #222;
   border-radius: 5px;
   padding: 2.5px;
